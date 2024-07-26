@@ -1,6 +1,8 @@
-import css from './FriendList.module.css';
+import css from '../FriendList/FriendList.module.css';
 
-const FriendListItem = ({ image, name, isOnline }) => {
+
+
+const FriendListItem = ({ image, name, isOnline}) => {
   return (
     <div className={css.friendListItem}>
       <img
